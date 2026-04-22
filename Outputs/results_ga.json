@@ -1,0 +1,112 @@
+[
+  {
+    "dataset": "adult",
+    "sensitive": [
+      "race",
+      "gender"
+    ],
+    "rs_mean": 0.5359,
+    "rs_std": 0.011040380428228014,
+    "ga_mean": 0.8548,
+    "ga_std": 0.04060738849027354,
+    "delta": 0.31889999999999996,
+    "pct_change": 59.50737066708831,
+    "p_value": 0.001953125
+  },
+  {
+    "dataset": "compas",
+    "sensitive": [
+      "Race",
+      "Sex"
+    ],
+    "rs_mean": 0.6239,
+    "rs_std": 0.0176943493805226,
+    "ga_mean": 0.764,
+    "ga_std": 0.04897958758503384,
+    "delta": 0.1401,
+    "pct_change": 22.455521682231893,
+    "p_value": 0.001953125
+  },
+  {
+    "dataset": "german",
+    "sensitive": [
+      "PersonStatusSex",
+      "AgeInYears"
+    ],
+    "rs_mean": 0.9751,
+    "rs_std": 0.005485435260760996,
+    "ga_mean": 0.9996,
+    "ga_std": 0.0009165151389911689,
+    "delta": 0.024500000000000077,
+    "pct_change": 2.5125628114936367,
+    "p_value": 0.001953125
+  },
+  {
+    "dataset": "credit",
+    "sensitive": [
+      "SEX",
+      "AGE"
+    ],
+    "rs_mean": 0.08469999999999998,
+    "rs_std": 0.0059506302187247355,
+    "ga_mean": 0.7983,
+    "ga_std": 0.04715092788058363,
+    "delta": 0.7136,
+    "pct_change": 842.5029416469549,
+    "p_value": 0.001953125
+  },
+  {
+    "dataset": "law_school",
+    "sensitive": [
+      "race",
+      "male"
+    ],
+    "rs_mean": 0.2259,
+    "rs_std": 0.018024705268048075,
+    "ga_mean": 0.8150000000000001,
+    "ga_std": 0.06123397749615814,
+    "delta": 0.5891000000000001,
+    "pct_change": 260.7791046446255,
+    "p_value": 0.001953125
+  },
+  {
+    "dataset": "communities",
+    "sensitive": [
+      "Black"
+    ],
+    "rs_mean": 0.0249,
+    "rs_std": 0.004570557952810577,
+    "ga_mean": 0.8041,
+    "ga_std": 0.030914236202759383,
+    "delta": 0.7792,
+    "pct_change": 3129.317143400918,
+    "p_value": 0.001953125
+  },
+  {
+    "dataset": "dutch",
+    "sensitive": [
+      "sex"
+    ],
+    "rs_mean": 0.6466,
+    "rs_std": 0.01609471963098458,
+    "ga_mean": 0.9533999999999999,
+    "ga_std": 0.008651011501552876,
+    "delta": 0.30679999999999996,
+    "pct_change": 47.44819046172566,
+    "p_value": 0.001953125
+  },
+  {
+    "dataset": "kdd",
+    "sensitive": [
+      "race",
+      "sex"
+    ],
+    "rs_mean": 0.22759999999999997,
+    "rs_std": 0.016125755796240995,
+    "ga_mean": 0.7076,
+    "ga_std": 0.02205085032374034,
+    "delta": 0.48000000000000004,
+    "pct_change": 210.89630838797763,
+    "p_value": 0.001953125
+  }
+]
